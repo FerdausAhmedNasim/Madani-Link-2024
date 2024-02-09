@@ -1,0 +1,22 @@
+
+nav > ul >li{
+ display: inline;
+ margin-right: 20px;
+ padding: 2px solid blue;
+ border: 2px solid red;
+ font-size: larger;
+
+}
+
+li > a{
+    text-decoration: none;
+    padding: 20px;    
+}
+
+
+
+@media screen and (max-width-576px) {
+    .nav{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
